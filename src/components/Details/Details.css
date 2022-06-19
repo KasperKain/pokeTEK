@@ -1,0 +1,36 @@
+.Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Details * {
+    color: white;
+}
+
+
+
+.game-versions,
+.move-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+
+
+    overflow-y: auto;
+
+}
+
+.Details p {
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(240, 248, 255, 0.065);
+}

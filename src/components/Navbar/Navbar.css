@@ -1,0 +1,45 @@
+.Navbar * {
+    color: rgb(238, 222, 222);
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding-top: 20px;
+    background-color: rgb(35, 54, 73);
+}
+
+.Navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+}
+
+.Navbar h3 {
+    font-size: 2.5em;
+    text-shadow:
+        0 0 2px #fff,
+        0 0 10px #fff,
+        0 0 5px #fff,
+        0 0 90px rgb(62, 179, 218),
+        0 0 2px #0fa,
+        0 0 81px #0fa;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .Navbar {
+        z-index: 50;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: lightblue;
+    }
+}

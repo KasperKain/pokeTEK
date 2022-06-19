@@ -1,0 +1,43 @@
+.Graph * {
+    color: white;
+    text-align: center;
+}
+
+.Graph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+    height: 50%;
+
+    animation: 2s load-graph forwards;
+}
+
+.graph-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.graph-bar span {
+    padding: 5px;
+}
+
+.graph-bar span:nth-child(2) {
+    flex: 1;
+    width: 100%;
+    background-color: rgb(186, 186, 186);
+}
+
+@keyframes load-graph {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,10 @@
+.HomePage {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(17, 17, 32);
+}
