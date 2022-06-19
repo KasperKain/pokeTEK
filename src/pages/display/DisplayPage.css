@@ -11,6 +11,8 @@
 
     background-color: rgb(17, 17, 32);
 
+    overflow: hidden;
+
 }
 
 .display-image-container {
@@ -21,10 +23,6 @@
 
     width: 100%;
     height: 100%;
-}
-
-.display-image-container {
-    border: 2px solid white;
 }
 
 .display-image-container img {

@@ -30,13 +30,15 @@ export default function SearchPage() {
 
     }
     async function fetchPokemon(pokemonNames) {
-        // Populate list of pokemon by making a call to the pokeApi endpoint one by one
         if (pokemonNames.length > 0) {
 
             for (const poke of pokemonNames) {
                 await getPokemonByName(poke).then(res => setPokemon(prev => [...prev, res]))
             }
 
+        } else {
+            setPokemon("error");
+            console.log(pokemon);
         }
 
     }
@@ -44,8 +46,7 @@ export default function SearchPage() {
     return <div className='SearchPage'>
         <LoadingIcon active={loading} />
         <SearchForm onClick={handleSubmit} />
-        <CardGrid pokemon={pokemon}>
-        </CardGrid>
+        {pokemon === 'error' ? <p>Error</p> : <CardGrid pokemon={pokemon} />}
 
     </div>
 }

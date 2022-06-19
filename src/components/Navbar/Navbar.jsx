@@ -5,8 +5,8 @@ export default function Navbar({ route, children, ...props }) {
 
 
     return <nav className='Navbar'>
-        <h3>PokéTEK</h3>
         <ul>
+            <h3>PokéTEK</h3>
             <CustomLink href='/' name="Home" />
             <CustomLink href='/about' name="About" />
             <CustomLink href='/search' name="Search" />

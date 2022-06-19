@@ -22,12 +22,13 @@
 }
 
 .Navbar h3 {
+    color: rgba(0, 0, 0, 0.87);
     font-size: 2.5em;
     text-shadow:
         0 0 2px #fff,
-        0 0 10px #fff,
+        0 0 2px #fff,
         0 0 5px #fff,
-        0 0 90px rgb(62, 179, 218),
+        0 0 12px rgb(62, 179, 218),
         0 0 2px #0fa,
-        0 0 81px #0fa;
+        0 0 3px #0fa;
 }

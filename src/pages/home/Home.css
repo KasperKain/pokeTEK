@@ -1,7 +1,7 @@
 .HomePage {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
     width: 100%;
@@ -12,7 +12,51 @@
 
 .HomePage .home-button-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 65%;
     padding: 20px;
+}
+
+.HomePage a {
+    text-align: center;
+    width: 130px;
+    padding: 20px;
+    border: 2px solid white;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 20px;
+
+    background-color: rgba(194, 194, 194, 0.065);
+}
+
+.HomePage a:hover {
+    animation: 0.5s link-hover forwards;
+}
+
+.HomePage h1 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 3em;
+    text-shadow:
+        0 0 2px #fff,
+        0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 12px rgb(62, 179, 218),
+        0 0 2px #0fa,
+        0 0 3px #0fa;
+}
+
+@keyframes link-hover {
+    0% {
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+        border-radius: 20px;
+    }
+
+    100% {
+        border: 2px solid white;
+        border-radius: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
 }

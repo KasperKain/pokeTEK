@@ -1,3 +1,7 @@
+.SearchForm * {
+    font-size: 1.2rem;
+}
+
 .SearchForm {
     flex: 20;
     display: flex;
@@ -27,6 +31,17 @@
 
 .SearchForm.used {
     animation: minimize 0.6s forwards;
+}
+
+.SearchForm button {
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+option {
+    background-color: black;
+    padding: 20px;
+    height: 10px;
+    font-size: 1.2em;
 }
 
 @keyframes minimize {

@@ -4,7 +4,6 @@ import HomePage from './pages/home/Home';
 import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom'
 import SearchPage from './pages/search/SearchPage';
-import LoadingIcon from './components/LoadingIcon/LoadingIcon';
 import DisplayPage from './pages/display/DisplayPage';
 
 

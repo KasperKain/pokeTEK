@@ -18,7 +18,6 @@ export default function SearchForm(props) {
         <select onChange={(e) => setSearchType(e.target.value)} className='form-field' name="search-type" id="search-type" value={searchType}>
             <option value="name">By Name</option>
             <option value="type">By Type</option>
-            <option value="generation">By Gen</option>
         </select>
         <button type='submit'>
             GO

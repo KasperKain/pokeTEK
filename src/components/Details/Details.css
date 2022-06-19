@@ -20,10 +20,15 @@
 
 }
 
+.Details h3 {
+    width: 50%;
+    border-bottom: 2px solid white;
+}
+
 .Details p {
     text-align: center;
     width: 60%;
-    padding: 5px;
-    margin: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
     background-color: rgba(240, 248, 255, 0.065);
 }
