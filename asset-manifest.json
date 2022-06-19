@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokeTEK/static/css/main.41fcec02.css",
+    "main.js": "/pokeTEK/static/js/main.571ffaff.js",
+    "index.html": "/pokeTEK/index.html",
+    "main.41fcec02.css.map": "/pokeTEK/static/css/main.41fcec02.css.map",
+    "main.571ffaff.js.map": "/pokeTEK/static/js/main.571ffaff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41fcec02.css",
+    "static/js/main.571ffaff.js"
+  ]
+}
