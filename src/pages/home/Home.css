@@ -1,6 +1,6 @@
 .HomePage {
-    flex: 5;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -8,4 +8,11 @@
     height: 100%;
 
     background-color: rgb(17, 17, 32);
+}
+
+.HomePage .home-button-container {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    padding: 20px;
 }

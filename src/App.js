@@ -11,12 +11,14 @@ import DisplayPage from './pages/display/DisplayPage';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/search' element={<SearchPage />} />
-        <Route path='/display/:id' element={<DisplayPage />} />
+
+        <Route path='/about' element={<><Navbar /> <AboutPage /></>} />
+        <Route path='/search' element={<><Navbar /> <SearchPage /></>} />
+
+        <Route path='/display/:id' element={<><Navbar /> <DisplayPage /></>} />
       </Routes>
     </div>
   );

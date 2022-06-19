@@ -5,15 +5,15 @@
     align-items: center;
     justify-content: center;
 
-    width: 300px;
-    padding-top: 20px;
+    width: 100%;
+    padding: 20px;
 
     background-color: rgb(35, 54, 73);
 }
 
 .Navbar ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 
