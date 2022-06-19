@@ -1,9 +1,0 @@
-.TestComponent {
-    background-color: rgb(110, 15, 64);
-    color: azure;
-    border: 5px solid black;
-}
-
-.TestComponent * {
-    outline: 2px solid white;
-}
