@@ -1,5 +1,12 @@
 .CustomLink {
     text-align: center;
-    border-bottom: 2px solid rgba(172, 172, 172, 0.658);
-    padding: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+.selected {
+    background-color: rgba(157, 191, 198, 0.364);
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
