@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pokeTEK/static/css/main.87bf7d5e.css",
-    "main.js": "/pokeTEK/static/js/main.571ffaff.js",
+    "main.js": "/pokeTEK/static/js/main.38486d2d.js",
     "index.html": "/pokeTEK/index.html",
     "main.87bf7d5e.css.map": "/pokeTEK/static/css/main.87bf7d5e.css.map",
-    "main.571ffaff.js.map": "/pokeTEK/static/js/main.571ffaff.js.map"
+    "main.38486d2d.js.map": "/pokeTEK/static/js/main.38486d2d.js.map"
   },
   "entrypoints": [
     "static/css/main.87bf7d5e.css",
-    "static/js/main.571ffaff.js"
+    "static/js/main.38486d2d.js"
   ]
 }
