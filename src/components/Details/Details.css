@@ -5,12 +5,6 @@
     height: 100%;
 }
 
-.Details * {
-    color: white;
-}
-
-
-
 .game-versions,
 .move-list {
     display: flex;
@@ -21,7 +15,6 @@
     height: 100%;
     width: 100%;
     padding: 5px;
-
 
     overflow-y: auto;
 
