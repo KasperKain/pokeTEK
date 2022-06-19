@@ -9,3 +9,20 @@
 
     background-color: rgb(17, 17, 32);
 }
+
+.AboutPage h1 {
+    font-size: 2em;
+}
+
+.AboutPage p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.AboutPage .about-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
