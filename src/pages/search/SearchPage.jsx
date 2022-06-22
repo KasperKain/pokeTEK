@@ -1,11 +1,9 @@
-import './SearchPage.css';
-
-import { useEffect } from 'react';
 import { useState } from 'react';
-import { getPokemonByName, getPokemonByType, getPokemonImage } from '../../api';
+import { getPokemonByName, getPokemonByType } from '../../api';
 import CardGrid from '../../components/CardGrid/CardGrid';
 import SearchForm from '../../components/SearchForm/SearchForm';
 import LoadingIcon from '../../components/LoadingIcon/LoadingIcon';
+import './SearchPage.css';
 
 export default function SearchPage() {
   const [pokemon, setPokemon] = useState([]);

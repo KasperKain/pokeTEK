@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom';
-import './DisplayPage.css';
-import { useState, useEffect, useLayoutEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getPokemonByName } from '../../api';
 import Graph from '../../components/Graph/Graph';
 import Details from '../../components/Details/Details';
+import './DisplayPage.css';
 
 export default function DisplayPage() {
   const [pokemon, setPokemon] = useState();

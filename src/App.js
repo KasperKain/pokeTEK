@@ -1,11 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-
-import './App.css';
 import AboutPage from './pages/about/AboutPage';
 import HomePage from './pages/home/Home';
 import SearchPage from './pages/search/SearchPage';
 import DisplayPage from './pages/display/DisplayPage';
 import Navbar from './components/Navbar/Navbar';
+import './App.css';
 
 function App() {
   return (
