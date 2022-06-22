@@ -1,41 +1,40 @@
 .DisplayPage {
-    flex: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    padding: 50px;
+  padding: 50px;
 
-    background-color: rgb(17, 17, 32);
+  background-color: rgb(17, 17, 32);
 
-    overflow: hidden;
-
+  overflow: hidden;
 }
 
 .display-image-container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .display-image-container img {
-    opacity: 0.7;
-    filter: grayscale(80%);
+  opacity: 0.7;
+  filter: grayscale(80%);
 }
 
 .display-stat-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }

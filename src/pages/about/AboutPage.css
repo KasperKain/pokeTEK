@@ -1,28 +1,28 @@
 .AboutPage {
-    flex: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    background-color: rgb(17, 17, 32);
+  background-color: rgb(17, 17, 32);
 }
 
 .AboutPage h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .AboutPage p {
-    text-align: center;
-    font-size: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .AboutPage .about-info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }

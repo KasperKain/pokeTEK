@@ -1,14 +1,14 @@
 .SearchPage {
-    position: relative;
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    background-color: rgb(17, 17, 32);
-    overflow: hidden;
+  background-color: rgb(17, 17, 32);
+  overflow: hidden;
 }
